@@ -4,7 +4,7 @@
 `npm install ngx-tawk` or `yarn install ngx-tawk`
 
 ## Usage
-An Angular component to integrate Tawk. Built for Angular 5.
+An Angular component to integrate Tawk. Built for and tested with Angular 5.
 
 ### Module
 ```
