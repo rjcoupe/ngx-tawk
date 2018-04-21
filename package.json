@@ -11,6 +11,7 @@
   },
   "peerDependencies": {
     "@angular/core": "^5.2.0",
+    "@angular/platform-browser": "^5.2.10",
     "core-js": "^2.4.1"
   }
 }
