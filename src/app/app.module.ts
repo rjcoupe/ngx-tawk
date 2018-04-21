@@ -2,17 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
-import { AppComponent } from './app.component';
+import { NgxTawkComponent } from './app.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    NgxTawkComponent
   ],
   imports: [
     BrowserModule
   ],
+  exports: [ NgxTawkComponent ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [NgxTawkComponent]
 })
 export class AppModule { }
