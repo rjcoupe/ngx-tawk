@@ -2,7 +2,8 @@ import { Component, Input, OnInit, Renderer2, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 
 @Component({
-  selector: 'ngx-tawk'
+  selector: 'ngx-tawk',
+  template: ''
 })
 export class NgxTawkComponent implements OnInit {
   @Input() id: string;
