@@ -24,3 +24,5 @@ export class AppModule { }
 ```
 
 The `id` parameter is for the string value identifying your account with Tawk. It is a hexadecimal string, 22 characters long, found in the code Tawk suggests you embed during the setup process.
+
+The widget is configured almost entirely within the Tawk dashboard. This component simply causes it to display within your application.
