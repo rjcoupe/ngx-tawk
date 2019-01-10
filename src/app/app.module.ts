@@ -1,4 +1,3 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
@@ -9,11 +8,8 @@ import { NgxTawkComponent } from './app.component';
   declarations: [
     NgxTawkComponent
   ],
-  imports: [
-    BrowserModule
-  ],
   exports: [ NgxTawkComponent ],
   providers: [],
-  bootstrap: [NgxTawkComponent]
+  bootstrap: [ NgxTawkComponent ]
 })
 export class AppModule { }
