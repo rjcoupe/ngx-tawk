@@ -3,10 +3,10 @@
 ## Installation
 `npm install ngx-tawk` or `yarn install ngx-tawk`
 
-## Usage
+## Usage
 An Angular component to integrate Tawk. Built for and tested with Angular 5.
 
-### Module
+### Module
 ```
 import { NgxTawkModule } from 'ngx-tawk';
 
@@ -18,7 +18,7 @@ import { NgxTawkModule } from 'ngx-tawk';
 export class AppModule { }
 ```
 
-### Component
+### Component
 ```
 <ngx-tawk [id]="tawkId"></ngx-tawk>
 ```
